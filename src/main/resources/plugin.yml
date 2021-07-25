@@ -1,0 +1,14 @@
+name: GreatKitsUpdated
+version: ${project.version}
+main: bg.hollyweed.greatkitsupdated.GreatKitsUpdated
+api-version: 1.17
+softdepend: [PlaceholderAPI]
+authors: [ Kizeko_, KamosRZ ]
+description: Updated version of the GreatKits plugin
+commands:
+  greatkits:
+    description: GreatKits admin's command
+    permission: greatkits.admin
+    aliases: [gk]
+  kit:
+    description: It shows the available kits
